@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fed95557.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.a72d97ec.chunk.css",
     "main.js": "/my-portfolio/static/js/main.bb22f591.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.bb22f591.chunk.js.map",
     "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
@@ -9,10 +9,10 @@
     "static/js/2.f320b357.chunk.js": "/my-portfolio/static/js/2.f320b357.chunk.js",
     "static/js/2.f320b357.chunk.js.map": "/my-portfolio/static/js/2.f320b357.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.865e8f7037a895e7573ec94d8787a2dc.js": "/my-portfolio/precache-manifest.865e8f7037a895e7573ec94d8787a2dc.js",
+    "precache-manifest.69dad99873c86f614c35d25d71bc6db4.js": "/my-portfolio/precache-manifest.69dad99873c86f614c35d25d71bc6db4.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
     "static/css/2.f810f2d0.chunk.css.map": "/my-portfolio/static/css/2.f810f2d0.chunk.css.map",
-    "static/css/main.fed95557.chunk.css.map": "/my-portfolio/static/css/main.fed95557.chunk.css.map",
+    "static/css/main.a72d97ec.chunk.css.map": "/my-portfolio/static/css/main.a72d97ec.chunk.css.map",
     "static/media/index.scss": "/my-portfolio/static/media/whatsapp.9958701c.png",
     "static/media/LivePinApp.png": "/my-portfolio/static/media/LivePinApp.e3468342.png",
     "static/media/LivePinSite.png": "/my-portfolio/static/media/LivePinSite.cdaa1f7e.png",
