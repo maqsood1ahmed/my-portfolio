@@ -72,7 +72,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 75 + "%" }}
+								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								HTML5
@@ -82,7 +82,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-80-bar"
 								role="progressbar"
-								style={{ width: 75 + "%" }}
+								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								CSS3
@@ -92,7 +92,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-90-bar"
 								role="progressbar"
-								style={{ width: 70 + "%" }}
+								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Javascript
@@ -112,7 +112,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 90 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Redux
@@ -122,22 +122,32 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 70 + "%" }}
+								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Antd UI
+								NodeJs
 							</div>
 						</div>
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
+								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								NodeJs
+								Mongodb
 							</div>
 						</div>
+						{/* <div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 70 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Cassandra
+							</div>
+						</div> */}
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-60-bar"

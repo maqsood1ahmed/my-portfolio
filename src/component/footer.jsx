@@ -11,17 +11,22 @@ class Footer extends React.Component {
 					<div className="row">
 						<div className="col-12 col-sm-12 col-md-8 mx-auto">
 							<a
-								className="px-3"
+								className="profile-links"
+								name="github"
 								href="https://github.com/maqsood1ahmed"
 								target="_blank"
 								rel="noopener noreferrer">
 								<img src={github} alt=""/>
+								<span class="tooltiptext">Github profile.</span>
 							</a>
 							<a
+								className="profile-links"
 								href="https://www.linkedin.com/in/maqsood-ahmed-ned-university/"
 								target="_blank"
+								name="linkedin"
 								rel="noopener noreferrer">
 								<img src={linkedin} alt=""/>
+								<span class="tooltiptext">LinkedIn profile.</span>
 							</a>
 						</div>
 					</div>

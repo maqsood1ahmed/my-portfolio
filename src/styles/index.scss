@@ -363,3 +363,255 @@
     background-color: transparent !important;
     top: 90% !important;
 }
+
+.crBg{
+    background-image: url("../img/classroom-teacher-view.jpg");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 1rem;
+}
+
+.CiarusBg {
+    background-image: url("../img/hotelson-sample.png");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 1rem;
+}
+  
+  .LpBg {
+    background-image: url("../img/LivePinSite0.png");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+ }
+  
+  .whatsAppBg {
+    background-image: url("../img/whatsapp.png");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+ }
+  
+  .SasBg {
+    background-image: url("../img/sas_group_official_site.png");
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+ }
+
+
+
+    .mytext {
+        font-size: 1.2rem; }
+      
+      .btn-style:hover {
+        cursor: pointer; }
+      
+      .home-style:hover {
+        cursor: pointer !important; }
+      
+      @keyframes slideBot {
+        0% {
+          opacity: 0;
+          transform: translateY(300px); }
+        100% {
+          opacity: 1;
+          transform: translateY(0); } }
+      
+      .slideBot {
+        animation: slideBot 1s; }
+      
+      @keyframes slideLeft {
+        0% {
+          opacity: 0;
+          transform: translateX(-300px); }
+        100% {
+          opacity: 1;
+          transform: translateX(0); } }
+      
+      @keyframes slideRight {
+        0% {
+          opacity: 0;
+          transform: translateX(300px); }
+        100% {
+          opacity: 1;
+          transform: translateX(0); } }
+      
+      .slideRight {
+        animation: slideRight 1s; }
+      
+      .slideLeft {
+        animation: slideLeft 1s; }
+      
+      .project-container {
+        padding-top: 6rem; }
+      
+      @keyframes fillBar {
+        0% {
+          width: 0; }
+        100% {
+          width: 80%; } }
+      
+      @keyframes fill60Bar {
+        0% {
+          width: 0; }
+        100% {
+          width: 60%; } }
+      
+      @keyframes fill90Bar {
+        0% {
+          width: 0; }
+        100% {
+          width: 90%; } }
+      
+      .fill-bar {
+        width: 0; }
+      
+      .filed-80-bar {
+        animation: fillBar 2s; }
+      
+      .fill-60-bar {
+        width: 0; }
+      
+      .filed-60-bar {
+        animation: fill60Bar 2s; }
+      
+      .fill-90-bar {
+        width: 0; }
+      
+      .filed-90-bar {
+        animation: fill90Bar 2s; }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #f8f9fa; }
+      
+      .text {
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -30%);
+        -ms-transform: translate(-50%, -30%);
+        transform: translate(-50%, -30%);
+        text-align: center; }
+      
+      .project-button {
+        background-color: #f8f9fa;
+        color: black;
+        border: 1px #122444 solid;
+        font-size: 20px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -70%);
+        -ms-transform: translate(-50%, -70%);
+        transform: translate(-50%, -70%);
+        text-align: center; }
+      
+      .project-button:hover {
+        background-color: #122444;
+        color: white; }
+      
+      .crBg:hover .overlay,.CiarusBg:hover .overlay, .LpBg:hover .overlay, .whatsAppBg:hover .overlay, .SasBg:hover .overlay {
+        opacity: 1; }
+      
+      #gallery-card {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 100; }
+      
+      .modal-card {
+        display: none;
+        position: absolute;
+        width: 45%;
+        top: 10%;
+        left: 50%;
+        height: 85%;
+        background-color: #f8f9fa;
+        z-index: 101;
+        transform: translate(-50%, -10%);
+        -ms-transform: translate(-50%, -10%); }
+      
+      .visual video, .visual img {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid black; }
+      
+      .modal-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.5rem; }
+      
+      .modal-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+      
+      @media only screen and (max-width: 900px) {
+        .modal-card {
+          width: 100%;
+          height: 100%; } }
+      
+      .ril-toolbar-left {
+        margin-left: 44%; }
+      
+      /* Tooltip container */
+      .profile-links {
+        margin-right: 20px;
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+        /* If you want dots under the hoverable text */ }
+      
+      /* Tooltip text */
+      .profile-links .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #353232;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 6px;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -60px;
+        margin-bottom: 10px;
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1; }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .profile-links:hover .tooltiptext {
+        visibility: visible; }
+      
+        body > div.ReactModalPortal > div > div > div > div.ril-toolbar.ril__toolbar > ul.ril-toolbar-right.ril__toolbarSide.ril__toolbarRightSide > li:nth-child(3) > button{
+        background-color: black;
+    }

@@ -15,7 +15,7 @@ export default class Background extends React.Component {
 				<div id="stars2" />
 				<div id="stars3" />
 				<div className="top-container flex">
-					<h1>
+					<h1 id="profile-title" style={{color: "white"}}>
 						Hello, I&apos;m Maqsood Ahmed.
 						<br />
 						A Full Stack Web Engineer.

@@ -16,6 +16,10 @@ export default class Contact extends React.Component {
 						<div className="row">
 							<div className="col-12 col-sm-12 col-md-6 mx-auto">
 								<input
+									style={{
+										opacity: 0.5,
+										pointerEvents: "none"
+									}}
 									type="text"
 									name="name"
 									className="form-control form-control-lg"
@@ -29,6 +33,10 @@ export default class Contact extends React.Component {
 						<div className="row">
 							<div className="col-12 col-sm-12 col-md-6 mx-auto">
 								<input
+									style={{
+										opacity: 0.5,
+										pointerEvents: "none"
+									}}
 									type="email"
 									name="_replyto"
 									className="form-control form-control-lg"
@@ -42,6 +50,10 @@ export default class Contact extends React.Component {
 						<div className="row">
 							<div className="col-12 col-sm-12 col-md-6 mx-auto">
 								<textarea
+									style={{
+										opacity: 0.5,
+										pointerEvents: "none"
+									}}
 									name="message"
 									className="form-control form-control-lg"
 									id="exampleFormControlTextarea1"
@@ -54,6 +66,10 @@ export default class Contact extends React.Component {
 					<div className="row text-md-right text-sm-center">
 						<div className="col-12 col-sm-12 col-md-6 mx-auto">
 							<button
+								style={{
+									opacity: 0.3,
+									pointerEvents: "none"
+								}}
 								type="submit"
 								className="btn btn-primary mb-2 hidden">
 								Submit
